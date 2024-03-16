@@ -7,7 +7,7 @@ body{
 }
 header{
     text-align: center;
-    background-color: lightskyblue;
+    background-color:#afddfb;
     width: 100vw;
     height: 42vh;
     padding-bottom: 30px;
@@ -16,13 +16,16 @@ header{
 header nav ul{
     display:flex;
     justify-content: center;
- 
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 a{
-    color:black;
+    color:#1d1d1d;
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-bottom: solid 2px #1d1d1d;
 }
 
 header img{
@@ -35,4 +38,13 @@ div {
     text-align: center;
     padding-bottom: 30px;
 
+}
+
+p{
+    width: 980px;
+    margin-top: 10px;
+    margin: 10px auto;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
 }
