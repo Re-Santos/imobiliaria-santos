@@ -2,12 +2,15 @@
     margin:0;
     padding:0;
 }
-
+body{
+    font-family: Tahoma;
+}
 header{
     text-align: center;
     background-color: lightskyblue;
     width: 100vw;
     height: 42vh;
+    padding-bottom: 30px;
 }
 
 header nav ul{
@@ -22,7 +25,14 @@ a{
     font-size: 20px;
 }
 
-img{
-    width:10%;
-    margin-top: 2%;
+header img{
+    width:12%;
+    margin-top:30px;
+}
+
+div {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+
 }
