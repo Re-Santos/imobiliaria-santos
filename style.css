@@ -21,7 +21,7 @@ header nav ul{
     font-family: Tahoma;
 }
 
-a{
+header a{
     color:#1d1d1d;
     margin-right: 20px;
     font-size: 18px;
@@ -50,17 +50,29 @@ p {
     line-height: 28px;
 }
 
+h3 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
 #sobre h1{
     color:#1d1d1d;
     margin-bottom: 5px;
 }
 
- #sobre h2, #corretores h2, #contatos h2{
+ #sobre h2 {
     color:#1c81c0;
     font-size: 18px;
     font-weight: normal;
     margin-bottom: 5px;
 
+}
+
+#corretores h3{
+    color:#1c81c0;
+    font-size: 28px;
+    line-height: 42px;
 }
 
  .sobre img , .corretores img{
@@ -72,7 +84,7 @@ p {
     color:#1d80c1;
 }
 
-#servicos {
+#servicos, #contato {
     background-color: #1d80c1;
     color: #ffffff;
 }
@@ -85,6 +97,7 @@ p {
 }
 
 .texto-amarelo{
+    font-weight: bold;
     color:#fff81b;
 }
 
@@ -96,3 +109,32 @@ p {
     line-height: 42px;
 }
 
+.contato p{
+    width: 980px;
+    margin-top: 10px;
+    margin: 10px auto;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+    color:#ffffff;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contato ul{
+    width: 210px;
+    list-style: none;
+    margin: 40px auto 40px;
+}
+
+.contato li{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
