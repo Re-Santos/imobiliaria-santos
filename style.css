@@ -34,6 +34,11 @@ header img{
     margin-top:30px;
 }
 
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
 div {
     padding-top: 30px;
     text-align: center;
@@ -137,4 +142,74 @@ h3 {
     color: #1d80c1;
     padding: 2px 5px;
     border-radius: 5px;
+}
+
+/* versão mobile */
+
+@media only screen and (max-width: 768px) {
+    header {
+        height: auto;
+    }
+
+    header img {
+        width: 30%;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height:2em;
+    }
+
+    header a {
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    .sobre img,
+    .corretores img {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .contato iframe {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    p,
+    .servicos p,
+    .contato p {
+        width: 90%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .servicos {
+        text-align: center;
+    }
+
+    .servicos ul {
+        display: inline-block;
+        padding: 0;
+    }
+
+    .servicos ul li {
+        margin: 0 50%;
+    }
+
+    .servicos ul,
+    .contato ul {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .servicos ul li,
+    .contato ul li {
+        font-size: 16px;
+    }
+
 }
